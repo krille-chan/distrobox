@@ -28,6 +28,8 @@ distributions.</p>
 
     sudo snap install distrobox
 
+You need to either install docker or podman on your system. While the snap version of docker is functional with Distrobox, it can't access files in your HOME directory.
+
 <!-- Uncomment and modify this when your snap is available on the store
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/distrobox)
 -->
@@ -43,7 +45,7 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/snapcrafters-reboot/24625))
 
   - [x] Click the green "Use this template" button above to create a new repository based on this template
   - [x] Give the newly created repository a sensible name, like `godzilla` if you're snapping the Godzilla software (*Note: Do not use `snap` in this name.*)
-  - [ ] Update the description of the repository to `Unofficial snap for Distrobox`
+  - [x] Update the description of the repository to `Unofficial snap for Distrobox`
   - [x] Update logos and references to `Project` and `[my-snap-name]`
   - [x] Create a snap that runs in `devmode`
   - [x] Convert the snap to `strict` confinement, or `classic` confinement if it qualifies
