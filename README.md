@@ -7,7 +7,6 @@
 <p align="center"><b>This is the snap for Distrobox</b>, <i>“Use any Linux distribution inside your terminal”</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
 distributions.</p>
 
-<!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
 <a href="https://snapcraft.io/distrobox">
   <img alt="enpass" src="https://snapcraft.io/distrobox/badge.svg" />
@@ -16,7 +15,6 @@ distributions.</p>
   <img alt="enpass" src="https://snapcraft.io/distrobox/trending.svg?name=0" />
 </a>
 </p>
--->
 
 <!-- Uncomment and modify this when you have a screenshot
 ![distrobox](screenshot.png?raw=true "distrobox")
@@ -30,9 +28,7 @@ distributions.</p>
 
 You need to either install docker or podman on your system. While the snap version of docker is functional with Distrobox, it can't access files in your HOME directory.
 
-<!-- Uncomment and modify this when your snap is available on the store
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/distrobox)
--->
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
@@ -49,24 +45,24 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/snapcrafters-reboot/24625))
   - [x] Update logos and references to `Project` and `[my-snap-name]`
   - [x] Create a snap that runs in `devmode`
   - [x] Convert the snap to `strict` confinement, or `classic` confinement if it qualifies
-  - [ ] Register the snap in the store, **using the preferred upstream name**
+  - [x] Register the snap in the store, **using the preferred upstream name**
   - [ ] Add a screenshot to this `README.md`
-  - [ ] Add install instructions to this `README.md`
-  - [ ] Update snap store metadata, icons and screenshots
+  - [x] Add install instructions to this `README.md`
+  - [x] Update snap store metadata, icons and screenshots
   - [ ] Publish the confined snap in the Snap store beta channel
   - [x] Update the install instructions in this `README.md`
-  - [ ] Post a call for testing in the Snapcraft Forum ["Snapcrafters" category](https://forum.snapcraft.io/c/snapcrafters/23) - [link]()
+  - [x] Post a call for testing in the Snapcraft Forum ["Snapcrafters" category](https://forum.snapcraft.io/c/snapcrafters/23) - [link]()
   - [ ] Add the Snapcraft store account (snap-advocacy@canonical.com) as a collaborator to your snap in the [Dashboard](https://dashboard.snapcraft.io) and ask a [Snapcrafters admin](https://github.com/orgs/snapcrafters/people?query=%20role%3Aowner) to accept this request
   - [ ] Fix all important issues found during testing
   - [ ] Make a post in the Snapcraft Forum ["store-requests" category](https://forum.snapcraft.io/c/store-requests/19) asking for a transfer of the snap name from you to Snapcrafters - [link]()
   - [ ] Ask a [Snapcrafters admin](https://github.com/orgs/snapcrafters/people?query=%20role%3Aowner) to fork your repo into github.com/snapcrafters, and configure the repo for automatic publishing into edge on commit
-  - [ ] Add the provided Snapcraft build badge to this `README.md`
+  - [x] Add the provided Snapcraft build badge to this `README.md`
   - [ ] Publish the snap in the Snap store stable channel
   - [ ] Update the install instructions in this `README.md`
   - [ ] Post an announcement in the Snapcraft Forum ["Snapcrafters" category](https://forum.snapcraft.io/c/snapcrafters/23) - [link]()
   - [ ] Ask the Snap Advocacy team to celebrate the snap - [link]()
   - [ ] Submit a pull request or patch upstream that adds snap install documentation - [link]()
-  - [ ] Ask upstream if they are interested in maintaining the Snap. If they are:
+  - [x] Ask upstream if they are interested in maintaining the Snap. If they are:
     - [ ] Fork the upstream project, add the snap build files and required assets/launchers to that repo and submit a pull request or patch - [link]()
     - [ ] Add upstream contact information to the `README.md`
     - If upstream accept the PR:
