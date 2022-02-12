@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://avatars1.githubusercontent.com/u/29598503?v=3&s=256" alt="Distrobox">
+  <img src="logo.png" alt="Distrobox">
   <br />
   Distrobox
 </h1>
@@ -32,6 +32,8 @@ You need to either install docker or podman on your system. While the snap versi
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
+<img src="screenshot.png" alt="Distrobox">
+
 ## Remaining tasks
 <!-- Uncomment and modify this when you have a screenshot
 ![distrobox](screenshot.png?raw=true "distrobox")
@@ -46,7 +48,7 @@ Snapcrafters ([join us](https://forum.snapcraft.io/t/snapcrafters-reboot/24625))
   - [x] Create a snap that runs in `devmode`
   - [x] Convert the snap to `strict` confinement, or `classic` confinement if it qualifies
   - [x] Register the snap in the store, **using the preferred upstream name**
-  - [ ] Add a screenshot to this `README.md`
+  - [x] Add a screenshot to this `README.md`
   - [x] Add install instructions to this `README.md`
   - [x] Update snap store metadata, icons and screenshots
   - [ ] Publish the confined snap in the Snap store beta channel
