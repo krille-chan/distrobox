@@ -17,6 +17,8 @@ parts:
       snapcraftctl set-version $(git describe --always --tag)
       snapcraftctl build
       ./install
+    stage-snaps:
+      - docker
 
 apps:
   distrobox:
