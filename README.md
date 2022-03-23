@@ -24,7 +24,7 @@ distributions.</p>
 
 ## Install
 
-    sudo snap install distrobox --edge --classic
+    sudo snap install distrobox --edge --devmode
 
 You need to either install docker or podman on your system. While the snap version of docker is functional with Distrobox, it can't access files in your HOME directory.
 
